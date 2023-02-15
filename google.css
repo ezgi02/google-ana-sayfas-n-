@@ -1,0 +1,81 @@
+ body{
+    margin:0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 14px;
+    padding-left: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    line-height: 24px;
+    margin-right: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.buton{
+    background-color:rgba(0, 0, 255, 0.685);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.container{
+    margin-top: 90px;
+}
+.resim{
+    text-align: center;
+}
+.arama{
+    width: 580px;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+}
+.text{
+    display: block;
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 25px;
+    width: 100%;
+}
+.kutu{
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 18px;
+    background-color: rgba(247, 243, 243, 0.74);
+}  
+footer{
+    background-color: rgba(247, 243, 243, 0.74) ;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 140px;
+} 
+h1{
+    font-size: 30px;
+    border: 1px solid #eee;
+}
+.ilk kisim{
+    display: flex;
+    justify-content:center;
+}
+ 
+
+
+
+
